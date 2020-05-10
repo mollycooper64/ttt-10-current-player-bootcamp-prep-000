@@ -1,7 +1,7 @@
 
 def turn_count(board)
 
-turn_count = 0
+counter = 0
 
 board.each do |position|
 
