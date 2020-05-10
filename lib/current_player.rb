@@ -20,11 +20,11 @@ end
 
 def current_player(board)
 
-if turn_count(board).even?
-  return "X"
+turn_count(board).even? "X" : "O"
+  #return "X"
 
-else
-  return "O"
+#else
+#  return "O"
 
-end
+#end
 end
