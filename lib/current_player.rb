@@ -5,7 +5,7 @@ counter = 0
 
   if board.each do |position|
 
-    position = "X" || = "O"
+    position = "X" || position = "O"
 
     counter += 1
 
